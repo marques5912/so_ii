@@ -1,0 +1,15 @@
+análise das ferramentas mencionadas: --- Juan marques (0040482221018)
+
+**Telegraf:**
+Telegraf é um agente de coleta e envio de dados métricos de diversas fontes para um sistema de armazenamento. Ele é desenvolvido pela equipe por trás do InfluxDB e é altamente configurável. O Telegraf pode coletar métricas de uma variedade de fontes, incluindo informações de CPU, memória, redes, dispositivos de armazenamento, entre outros. Ele tem uma arquitetura modular, o que significa que você pode habilitar os plugins relevantes para coletar as métricas específicas que deseja monitorar.
+
+**InfluxDB:**
+O InfluxDB é um banco de dados de séries temporais, projetado para armazenar, consultar e visualizar dados de métricas com base no tempo. Ele é otimizado para armazenar informações que mudam com o tempo, como dados de monitoramento. As métricas coletadas pelo Telegraf são enviadas para o InfluxDB, onde são armazenadas em um formato otimizado para consulta rápida e eficiente.
+
+**Grafana:**
+Grafana é uma plataforma de visualização de dados que permite criar painéis e gráficos interativos para análise de dados. Ele se integra com diversos sistemas de armazenamento de dados, incluindo o InfluxDB. Com o Grafana, você pode criar painéis personalizados para exibir visualmente as métricas coletadas. Isso ajuda a monitorar e analisar o desempenho do sistema, identificar tendências, anomalias e tomar decisões informadas.
+
+
+Conclusão:
+
+  De acordo com a documentação do telegraf,é possivel  utilizar de diversos plugins de monitoramento,podendo ser utilizados em hardware,software e no tráfico de redes; tendo isso em mente,como uma primeira ideia,pensamos na possibilidade de criar um sistema de monitoramento de trafego de rede local.
